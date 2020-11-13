@@ -1,9 +1,11 @@
 import React from "react";
-import "./App.css";
+import "../style/App.css";
 
 function App() {
   return (
-    <h1>Intial Project Commit</h1>
+    <div className="text-center">
+    <h1>Initial Project Commit</h1>
+    </div>
   );
 }
 
