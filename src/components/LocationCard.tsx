@@ -32,7 +32,6 @@ class FilmCard extends Component<LocationCardProps, LocationCardState>{
 
     render() {
         const {locationArr} = this.state;
-        console.log(locationArr);
         return (
             <div>
                 <Header listHeader={"Studio Ghibli Wiki"}></Header>

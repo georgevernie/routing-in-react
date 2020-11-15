@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./Header";
 
 const Home = (props: any) => {
-    console.log(props.match);
     return (
             <div className="text-center">
                 <Header listHeader={"Studio Ghibli Wiki"}></Header>

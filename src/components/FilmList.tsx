@@ -38,13 +38,12 @@ class FilmList extends Component <FilmListProps, FilmState> {
             .then(res => res.json())
             .then(objLit => {
                 this.setState({ films: objLit })
-            }).catch(e => console.log(e));
+            });
             
     }     
     render(){
         const { films, filmDescription, filmTitle, filmReleaseDate, filmProducer } = this.state; 
         return (
-
             <div className="text-center">
                 <Header listHeader={"Studio Ghibli Film List"}></Header>
                 <FilmCardList

@@ -32,7 +32,6 @@ class FilmCard extends Component<FilmCardProps, FilmCardState>{
     }
     render() {
         const { filmArr } = this.state;
-        console.log(filmArr);
         return (
             <div>
                 <Header listHeader={"Studio Ghibli Wiki"}></Header>
